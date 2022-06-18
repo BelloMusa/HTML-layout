@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #FFFFFF;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  border-radius: 10px;
+}
+
+header{
+  text-align: center;
+  width: 5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: 1s ease-in;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+a{
+  text-decoration: none;
+  color:orangered;
+}
+main {
+  margin: 10rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.container{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    /* display: flex; */
+  background-color: rgb(253, 86, 9);
+  padding: 2rem 1rem;
+/* flex-direction: column; */
+  /* flex: 1/3 */
+  width: calc(100vw/3.5 - 10rem);
+}
+
+
+.icon{
+    width: 3rem;
+    color: #FFF; 
+}
+
+.card-title {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+
+} 
+
+.card-description {
+    margin-bottom: 4rem ;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+}
+
+.card-button {
+  background: transparent;
+  border: #FFF 1px solid;
+  border-radius: 25px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px 25px;
+  font-weight: lighter;
+}
+.card-two {
+    /* display: flex; */
+  background-color:#043636;
+  padding: 2rem 1rem;
+/* flex-direction: column; */
+  /* flex: 1/3 */
+  width: calc(100vw/3.5 - 10rem);
+}
+
+
+.icon-two{
+    width: 3rem;
+    color: #FFF; 
+}
+
+.card-two-title {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+
+} 
+
+.card-two-description {
+    margin-bottom: 4rem ;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+}
+
+.card-two-button {
+  background: transparent;
+  border: #FFF 1px solid;
+  border-radius: 25px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px 25px;
+  font-weight: lighter;
+}
+.card-three {
+    /* display: flex; */
+  background-color: #011a03;
+  padding: 2rem 1rem;
+/* flex-direction: column; */
+  /* flex: 1/3 */
+  width: calc(100vw/3.5 - 10rem);
+  
+}
+
+.icon-three{
+    width: 3rem;
+    color: #FFF; 
+}
+
+.card-three-title {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+
+} 
+
+.card-three-description {
+    margin-bottom: 4rem ;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF80;
+}
+
+.card-three-button {
+  background: transparent;
+  border: #FFF 1px solid;
+  border-radius: 25px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px 25px;
+  font-weight: lighter;
+}
+
